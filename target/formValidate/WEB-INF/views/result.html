@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Information User</title>
+</head>
+<body>
+<h3>FirstName <span th:text="${user.getFirstName()}"></span></h3>
+<h3>LastName <span th:text="${user.getLastName()}"></span></h3>
+<h3>Age <span th:text="${user.getAge()}"></span></h3>
+<h3>PhoneNumber <span th:text="${user.getPhoneNumber()}"></span></h3>
+<h3>Email <span th:text="${user.getEmail()}"></span></h3>
+
+</body>
+</html>
